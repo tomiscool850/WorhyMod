@@ -1,0 +1,15 @@
+0.0.0.1
+Added Copper spear
+Added Copper Repeater
+Added Tin Spear
+Added Tin Repeater
+Added Blowpipe Core
+
+0.0.0.2
+Added Copper Wand
+Added Tin Wand 
+Added Cardboard
+Added Toys
+Added Broken Toys
+Added Homepage
+
