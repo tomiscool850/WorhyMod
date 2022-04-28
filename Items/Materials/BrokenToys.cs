@@ -25,7 +25,7 @@ namespace WorhyMod.Items.Materials
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe(999)
+			CreateRecipe(1)
 				.AddIngredient<Toys>()
 				.Register();
 		}

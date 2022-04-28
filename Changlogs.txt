@@ -13,3 +13,9 @@ Added Toys
 Added Broken Toys
 Added Homepage
 
+0.0.0.3
+Added Copper Ammo(Arrow, Bullet, Dart)
+Added Tin Ammo(Arrow, Bullet, Dart)
+Added Github
+Added Icon
+Changed the ammount of items you get when crafting(sorry lol)

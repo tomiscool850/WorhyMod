@@ -25,7 +25,7 @@ namespace WorhyMod.Items.Materials
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe(999)
+			CreateRecipe(5)
 				.AddIngredient(ItemID.Lens)
 				.AddIngredient(ItemID.FlinxFur, 2)
 				.AddTile(TileID.WorkBenches)
