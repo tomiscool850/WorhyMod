@@ -19,3 +19,12 @@ Added Tin Ammo(Arrow, Bullet, Dart)
 Added Github
 Added Icon
 Changed the ammount of items you get when crafting(sorry lol)
+
+0.0.0.4
+Added Copper Beam
+Added Copper Beam Wall
+Added Tin Beam
+Added Tin Plating
+Added Tin Beam Wall
+Added Tin Plating Wall
+ik some stuff isnt working so ill fix them soon idk how tho
