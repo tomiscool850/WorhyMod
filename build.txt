@@ -1,4 +1,4 @@
 displayName = A Worthy Adventure
 author = ThomasIR
 homepage = https://discord.gg/5pAw4Dtqtg
-version = 0.0.0.4
+version = 0.0.0.5

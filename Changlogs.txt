@@ -28,3 +28,12 @@ Added Tin Plating
 Added Tin Beam Wall
 Added Tin Plating Wall
 ik some stuff isnt working so ill fix them soon idk how tho
+
+0.0.0.5
+Added Stone Racket
+Added Wood Racket
+Added Copper Racket
+Added Tin Racket
+Added Tennis Racket
+Added Copper Gun 
+Added Tin Gun
