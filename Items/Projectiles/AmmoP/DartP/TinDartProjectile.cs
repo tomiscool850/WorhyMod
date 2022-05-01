@@ -28,7 +28,7 @@ namespace WorhyMod.Items.Projectiles.AmmoP.DartP
 			Projectile.DamageType = DamageClass.Ranged;
 			Projectile.penetrate = 5;
 			Projectile.timeLeft = 600;
-			Projectile.alpha = 255;
+			Projectile.alpha = 25;
 			Projectile.light = 0.1f;
 			Projectile.ignoreWater = true;
 			Projectile.tileCollide = true;

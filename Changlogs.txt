@@ -46,3 +46,10 @@ Added Small Icon
 readded the tin plating wall tile as it was deleted for some reason
 Fixed the Tin and Copper beam wall so they show up when placed.
 (Banner Next update for the copper slime)
+
+0.0.0.7
+Added Tin Slime
+Added tenis ball
+Added a Projectile for the Tennis Racket
+Fixed the arrows and darts so they arnt invisable.
+i am currently unable to make monster banner so when i can ill add banners:(

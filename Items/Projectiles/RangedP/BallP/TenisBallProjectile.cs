@@ -7,13 +7,13 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace WorhyMod.Items.Projectiles.AmmoP.DartP
+namespace WorhyMod.Items.Projectiles.RangedP.BallP
 {
-	public class CopperDartProjectile : ModProjectile
+	public class TenisBallProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Copper Dart Projectile");
+			DisplayName.SetDefault("Tennis Ball Projectile");
 			ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;
 			ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
 		}
@@ -28,13 +28,13 @@ namespace WorhyMod.Items.Projectiles.AmmoP.DartP
 			Projectile.DamageType = DamageClass.Ranged;
 			Projectile.penetrate = 5;
 			Projectile.timeLeft = 600;
-			Projectile.alpha = 25;
+			Projectile.alpha = 50;
 			Projectile.light = 0.1f;
 			Projectile.ignoreWater = true;
 			Projectile.tileCollide = true;
 			Projectile.extraUpdates = 1;
 
-			AIType = 184;
+			AIType = 1;
 		}
 
 		public override bool OnTileCollide(Vector2 oldVelocity)

@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
+using WorhyMod.Items.Projectiles.RangedP.BallP;
 
 namespace WorhyMod.Items.Weapons.Melee.Racket
 {
@@ -33,6 +34,7 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.value = Item.buyPrice(gold: 2);
 			Item.rare = ItemRarityID.Red;
 			Item.UseSound = SoundID.Item1;
+			Item.shoot = ModContent.ProjectileType<TenisBallProjectile>();
 		}
 		public override void AddRecipes()
 		{
