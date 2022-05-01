@@ -24,7 +24,7 @@ namespace WorhyMod.Items.Placeables.Walls.BeamsW
 			Item.useTime = 7;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.consumable = true;
-			Item.createWall = ModContent.WallType<Items.Tiles.Walls.BeamW.CopperBeamWallTile>();
+			Item.createWall = ModContent.WallType<Items.Tiles.Walls.BeamsW.CopperBeamWallTile>();
 
 		}
 		public override void AddRecipes()

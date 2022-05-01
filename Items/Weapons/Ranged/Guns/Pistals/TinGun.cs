@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace WorhyMod.Items.Weapons.Ranged.Guns
+namespace WorhyMod.Items.Weapons.Ranged.Guns.Pistals
 {
 	public class TinGun : ModItem
 	{

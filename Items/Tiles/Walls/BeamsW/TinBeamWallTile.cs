@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace WorhyMod.Items.Tiles.Walls.BeamW
+namespace WorhyMod.Items.Tiles.Walls.BeamsW
 {
 
 	public class TinBeamWallTile : ModWall

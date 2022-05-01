@@ -37,3 +37,12 @@ Added Tin Racket
 Added Tennis Racket
 Added Copper Gun 
 Added Tin Gun
+
+0.0.0.6
+Added Hellshot
+Added Com15
+Added Copper Slime
+Added Small Icon
+readded the tin plating wall tile as it was deleted for some reason
+Fixed the Tin and Copper beam wall so they show up when placed.
+(Banner Next update for the copper slime)

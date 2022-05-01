@@ -5,13 +5,16 @@ using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace WorhyMod.Items.Weapons.Ranged.Guns
+namespace WorhyMod.Items.Weapons.Ranged.Guns.Pistals
 {
-	public class CopperGun : ModItem
+	public class Comfifteen : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			Tooltip.SetDefault("Gun of copper ik wouldnt expect this.");
+			DisplayName.SetDefault("Com15");
+
+			Tooltip.SetDefault("kinda hard to tell but this may be an weapons based" +
+                "on a scp game... Caugh caugh Scp secret Lab Caugh.");
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 		}
@@ -20,28 +23,30 @@ namespace WorhyMod.Items.Weapons.Ranged.Guns
 		{
 			Item.width = 62;
 			Item.height = 32;
-			Item.scale = 1.5f;
-			Item.rare = ItemRarityID.Orange;
+			Item.scale = 1.2f;
+			Item.rare = ItemRarityID.White;
 
-			Item.useTime = 15;
-			Item.useAnimation = 15; 
+			Item.useTime = 14;
+			Item.useAnimation = 14;
 			Item.useStyle = ItemUseStyleID.Shoot;
-			Item.autoReuse = false;
+			Item.autoReuse = true;
 			Item.UseSound = SoundID.Item11;
 
 			Item.DamageType = DamageClass.Ranged;
-			Item.damage = 8;
-			Item.knockBack = 2f;
+			Item.damage = 15;
+			Item.knockBack = 3f;
 			Item.noMelee = true;
 
 			Item.shoot = ProjectileID.Bullet;
-			Item.shootSpeed = 12f; 
+			Item.shootSpeed = 15f;
 			Item.useAmmo = AmmoID.Bullet;
 		}
 		public override void AddRecipes()
 		{
 			CreateRecipe()
-				.AddIngredient(ItemID.CopperBar, 12)
+				.AddIngredient(ItemID.IronBar, 12)
+				.AddIngredient(ItemID.Chain, 3)
+				.AddIngredient(ItemID.Hook)
 				.AddTile(TileID.Anvils)
 				.Register();
 		}
