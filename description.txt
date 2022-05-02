@@ -18,10 +18,10 @@ enjoy all these diffrent types of items
 
 16 Weapons
 6 ammos
-4 Items
+6 Items
 9 Projectiles
-6 tiles
-6 placeables
+12 tiles
+12 placeables
 2 enemy
 
 There will be so much more trust me:)

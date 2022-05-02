@@ -53,3 +53,14 @@ Added tenis ball
 Added a Projectile for the Tennis Racket
 Fixed the arrows and darts so they arnt invisable.
 i am currently unable to make monster banner so when i can ill add banners:(
+
+0.0.0.8
+Added Plastic
+Added Rubber
+Added Rubber Block
+Added Plastic Block
+Added Copper Lamp
+Added Copper Torch
+Added Tin Lamp
+Added Tin Torch
+Resprited the Icon
