@@ -64,3 +64,13 @@ Added Copper Torch
 Added Tin Lamp
 Added Tin Torch
 Resprited the Icon
+
+0.0.0.9
+Added Copper Katana
+Added Copper Launcher
+Added Copper Table
+Added Copper Chair
+Added Tin Katana
+Added Tin Luancher
+Added Tin Table
+Added Tin Chair
