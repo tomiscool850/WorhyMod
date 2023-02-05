@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VQVcZ2x6HkGhlVYR9pZgYuGA5kfINV+sa1PgcR+QtP0kW7oTDNZzQ5n79RI6HQ0eoIVnNslcsJvSnam55Bt23A==",
+  "dgSpecHash": "r03S3qcYJdPcpkE0l+3AswjLK+DDHuCvmnV+vFCJONZJWLainCiZUYgbHQDq3iW1Y14YYS/hHIOyB74Lord+cQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thoma\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WorhyMod\\WorhyMod.csproj",
+  "projectFilePath": "C:\\Users\\erint\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\WorhyMod\\WorhyMod.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thoma\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+    "C:\\Users\\erint\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -12,16 +12,17 @@ weapons for high damage folks, fast folks, high value folks, and more
 
 This mod is also a recreation of a 1.3 version Mass Distruction adding tons of content, But this time we will run smoothly one at a time and better Polished stuff
 
-Check the Discord(homepage) for updates and changlogs
+Check the Google document for all updates and changlogs
 
 enjoy all these diffrent types of items
 
-20 Weapons
+47 Weapons
 6 ammos
-6 Items
-9 Projectiles
-16 tiles
-16 placeables
-2 enemy
+12 Items
+29 Projectiles
+20 tiles
+20 placeables
+3 enemy
+2 foods
 
 There will be so much more trust me:)

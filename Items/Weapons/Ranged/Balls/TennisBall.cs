@@ -4,6 +4,7 @@ using Terraria.DataStructures;
 using Terraria.GameContent.Creative;
 using Terraria.ID;
 using Terraria.ModLoader;
+using WorhyMod.Items.Materials;
 using WorhyMod.Items.Projectiles.RangedP.BallP;
 
 namespace WorhyMod.Items.Weapons.Ranged.Balls
@@ -38,9 +39,10 @@ namespace WorhyMod.Items.Weapons.Ranged.Balls
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe()
-				.AddIngredient(ItemID.CopperBar, 12)
-				.AddTile(TileID.Anvils)
+			CreateRecipe(50)
+				.AddIngredient(ItemID.Seed, 2)
+                .AddIngredient<Rubber>()
+                .AddTile(TileID.Anvils)
 				.Register();
 		}
 	}

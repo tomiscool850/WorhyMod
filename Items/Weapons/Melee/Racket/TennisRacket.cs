@@ -35,6 +35,7 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.rare = ItemRarityID.Red;
 			Item.UseSound = SoundID.Item1;
 			Item.shoot = ModContent.ProjectileType<TenisBallProjectile>();
+			Item.shootSpeed = 12;
 		}
 		public override void AddRecipes()
 		{

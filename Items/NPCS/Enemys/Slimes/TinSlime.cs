@@ -50,7 +50,7 @@ namespace WorhyMod.Items.NPCS.Enemys.Slimes
 				npcLoot.Add(zombieDropRule);
 			}
 			npcLoot.Add(ItemDropRule.Common(ItemID.TinOre, 3));
-			npcLoot.Add(ItemDropRule.Common(ItemID.TinBar));
+			npcLoot.Add(ItemDropRule.Common(ItemID.TinOre));
 		}
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
