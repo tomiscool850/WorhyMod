@@ -29,7 +29,6 @@ namespace WorhyMod.Items.Tiles.Furniture.Table
 
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
 
-			// Etc
 			ModTranslation name = CreateMapEntryName();
 			name.SetDefault("Table");
 			AddMapEntry(new Color(200, 200, 200), name);

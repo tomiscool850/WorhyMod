@@ -28,7 +28,7 @@ namespace WorhyMod.Items.Weapons.Melee.Swords
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 13;
-            Item.knockBack = 6;
+            Item.knockBack = 1.5f;
             Item.crit = 6;
 
             Item.value = Item.buyPrice(gold: 1);

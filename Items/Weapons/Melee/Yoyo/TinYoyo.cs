@@ -11,7 +11,7 @@ namespace WorhyMod.Items.Weapons.Melee.Yoyo
     {
         public override void SetStaticDefaults()
         {
-            Tooltip.SetDefault("Yoyo 's are intresting.");
+            Tooltip.SetDefault("Yoyo's are intresting.");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 
             ItemID.Sets.Yoyo[Item.type] = true;

@@ -15,7 +15,7 @@ namespace WorhyMod.Items.Weapons.Summon.Whip
 
         public override void SetDefaults()
         {
-            Item.DefaultToWhip(ModContent.ProjectileType<CopperWhipProjectile>(), 20, 2, 4);
+            Item.DefaultToWhip(ModContent.ProjectileType<CopperWhipProjectile>(), 5, 1, 2);
 
             Item.shootSpeed = 4;
             Item.rare = ItemRarityID.Green;

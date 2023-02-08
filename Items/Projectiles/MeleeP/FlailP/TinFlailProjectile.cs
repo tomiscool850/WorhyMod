@@ -46,7 +46,7 @@ namespace WorhyMod.Items.Projectiles.MeleeP.FlailP
         }
         public override bool PreDraw(ref Color lightColor)
         {
-            Projectile.type = ModContent.ProjectileType<CopperFlailProjectile>();
+            Projectile.type = ModContent.ProjectileType<TinFlailProjectile>();
 
             if (Projectile.ai[0] == 1f)
             {

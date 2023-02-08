@@ -16,13 +16,15 @@ Check the Google document for all updates and changlogs
 
 enjoy all these diffrent types of items
 
-47 Weapons
+2 Accessories
+74 Weapons
 6 ammos
-12 Items
-29 Projectiles
-20 tiles
-20 placeables
-3 enemy
-2 foods
+19 Items
+2 tools
+49 Projectiles
+32 tiles
+32 placeables
+5 enemy
+3 foods
 
 There will be so much more trust me:)

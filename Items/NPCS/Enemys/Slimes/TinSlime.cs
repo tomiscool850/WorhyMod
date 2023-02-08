@@ -5,6 +5,7 @@ using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ModLoader.Utilities;
 using Terraria.DataStructures;
+using System;
 
 namespace WorhyMod.Items.NPCS.Enemys.Slimes
 {
@@ -44,7 +45,7 @@ namespace WorhyMod.Items.NPCS.Enemys.Slimes
 
 		public override void ModifyNPCLoot(NPCLoot npcLoot)
 		{
-			var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.BlueSlime, false);
+			var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.BlueSlime, true);
 			foreach (var zombieDropRule in zombieDropRules)
 			{
 				npcLoot.Add(zombieDropRule);
@@ -55,8 +56,8 @@ namespace WorhyMod.Items.NPCS.Enemys.Slimes
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo)
 		{
-			return SpawnCondition.OverworldNightMonster.Chance * 0.1f;
-		}
+            return Math.Max(SpawnCondition.OverworldNightMonster.Chance, SpawnCondition.Cavern.Chance) * 0.1f;
+        }
 
 		public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
 		{

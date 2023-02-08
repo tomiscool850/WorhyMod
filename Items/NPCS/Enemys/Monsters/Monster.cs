@@ -5,6 +5,8 @@ using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ModLoader.Utilities;
 using Terraria.DataStructures;
+using WorhyMod.Items.Materials;
+using WorhyMod.Items.Accessories.RangerA;
 
 namespace WorhyMod.Items.NPCS.Enemys.Monsters
 {
@@ -44,12 +46,12 @@ namespace WorhyMod.Items.NPCS.Enemys.Monsters
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)
         {
-            var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.BoneLee, false);
+            var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.BoneLee, true);
             foreach (var zombieDropRule in zombieDropRules)
             {
                 npcLoot.Add(zombieDropRule);
             }
-            npcLoot.Add(ItemDropRule.Common(ItemID.CopperOre, 3));
+            npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MonsterFur>(), 2));
         }
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
