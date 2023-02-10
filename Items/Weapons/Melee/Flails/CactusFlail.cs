@@ -14,8 +14,6 @@ namespace WorhyMod.Items.Weapons.Melee.Flails
             DisplayName.SetDefault("Cactus Flail");
             Tooltip.SetDefault("Flail of Cactus.");
             SacrificeTotal = 1;
-
-            ItemID.Sets.ToolTipDamageMultiplier[Type] = 2f;
         }
 
         public override void SetDefaults()

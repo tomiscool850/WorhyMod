@@ -3,6 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
+using WorhyMod;
 
 namespace WorhyMod.Items.Weapons.Melee.Racket
 {
@@ -26,8 +27,8 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.useAnimation = 20;
 			Item.autoReuse = true;
 
-			Item.DamageType = DamageClass.Melee;
-			Item.damage = 14;
+            Item.DamageType = ModContent.GetInstance<TennisClass>();
+            Item.damage = 14;
 			Item.knockBack = 3.5f;
 			Item.crit = 3;
 
@@ -35,7 +36,11 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.rare = ItemRarityID.Orange;
 			Item.UseSound = SoundID.Item1;
 		}
-		public override void AddRecipes()
+	    public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
+        {
+            target.AddBuff(BuffID.Bleeding, 120);
+        }
+        public override void AddRecipes()
 		{
 			CreateRecipe()
 				.AddIngredient(ItemID.CopperBar, 9)

@@ -26,8 +26,8 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.useAnimation = 16;
 			Item.autoReuse = true;
 
-			Item.DamageType = DamageClass.Melee;
-			Item.damage = 24;
+            Item.DamageType = ModContent.GetInstance<TennisClass>();
+            Item.damage = 24;
 			Item.knockBack = 3.5f;
 			Item.crit = 3;
 

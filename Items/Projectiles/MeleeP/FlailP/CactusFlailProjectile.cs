@@ -30,7 +30,7 @@ namespace WorhyMod.Items.Projectiles.MeleeP.FlailP
             Projectile.localNPCHitCooldown = 10;
 
             Projectile.aiStyle = ProjAIStyleID.Flail;
-            AIType = ProjectileID.Sunfury;
+            AIType = ProjectileID.Mace;
 
             DrawOffsetX = -6;
             DrawOriginOffsetY = -6;

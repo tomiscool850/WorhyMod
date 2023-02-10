@@ -49,7 +49,14 @@ namespace WorhyMod.Items.Weapons.Ranged.Guns.Pistals
 				.AddIngredient(ItemID.Hook)
 				.AddTile(TileID.Anvils)
 				.Register();
-		}
+
+            CreateRecipe()
+                .AddIngredient(ItemID.LeadBar, 12)
+                .AddIngredient(ItemID.Chain, 3)
+                .AddIngredient(ItemID.Hook)
+                .AddTile(TileID.Anvils)
+                .Register();
+        }
 		public override Vector2? HoldoutOffset()
 		{
 			return new Vector2(2f, -2f);
