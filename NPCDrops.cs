@@ -22,18 +22,26 @@ namespace ExampleMod.Common.GlobalNPCs
             if (npc.type == NPCID.TheDestroyer)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ReinforcedSoul>(), 2));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MecanicalParts>(), 5));
             }
             if (npc.type == NPCID.SkeletronPrime)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ReinforcedSoul>(), 2));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MecanicalParts>(), 5));
             }
             if (npc.type == NPCID.Retinazer)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ReinforcedSoul>(), 2));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MecanicalParts>(), 5));
             }
             if (npc.type == NPCID.Spazmatism)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ReinforcedSoul>(), 2));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<MecanicalParts>(), 5));
+            }
+            if (npc.type == NPCID.Plantera)
+            {
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BlackGoo>(), 8));
             }
         }
     }

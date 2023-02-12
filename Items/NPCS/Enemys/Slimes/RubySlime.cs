@@ -27,9 +27,9 @@ namespace WorhyMod.Items.NPCS.Enemys.Slimes
         {
             NPC.width = 18;
             NPC.height = 40;
-            NPC.damage = 11;
-            NPC.defense = 10;
-            NPC.lifeMax = 180;
+            NPC.damage = 12;
+            NPC.defense = 12;
+            NPC.lifeMax = 240;
             NPC.HitSound = SoundID.NPCHit1;
             NPC.DeathSound = SoundID.NPCDeath2;
             NPC.value = 70f;

@@ -32,7 +32,7 @@ namespace WorhyMod.Items.Weapons.Ranged.Guns.AssultRifles
             Item.UseSound = SoundID.Item11;
 
             Item.DamageType = DamageClass.Ranged;
-            Item.damage = 20;
+            Item.damage = 18;
             Item.knockBack = 3f;
             Item.noMelee = true;
 

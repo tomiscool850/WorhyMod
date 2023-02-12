@@ -28,7 +28,7 @@ namespace WorhyMod.Items.Materials
             Item.width = 18;
             Item.height = 18;
             Item.maxStack = 999;
-            Item.value = 1000;
+            Item.value = 20000;
             Item.rare = ItemRarityID.Blue;
         }
 

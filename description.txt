@@ -10,23 +10,23 @@ theres weapons for everyone
 
 weapons for high damage folks, fast folks, high value folks, and more
 
-This mod is also a recreation of a 1.3 version Mass Distruction adding tons of content, But this time we will run smoothly one at a time and better Polished stuff
+This mod is also a recreation of a 1.3 version Mass Distruction adding tons of content, But this time it will run smoothly one at a time and better Polished stuff
 
 Check the Google document for all updates and changlogs
 
 enjoy all these diffrent types of items
 
--5 Accessories
+-10 Accessories
 -6 Ammos
--2 Armors
+-4 Armors
 -4 Foods
--25 Items
--9 Enemys
--35 Placeables
--75 Projectiles
--35 Tiles
--9 tools
--131 Weapons
+-32 Items
+-20 Enemys
+-38 Placeables
+-116 Projectiles
+-38 Tiles
+-17 tools
+-221 Weapons
 -1 new class
 
 There will be so much more trust me:)

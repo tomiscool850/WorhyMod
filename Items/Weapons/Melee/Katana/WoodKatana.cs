@@ -37,7 +37,7 @@ namespace WorhyMod.Items.Weapons.Melee.Katana
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.Wood, 7)
+                .AddIngredient(ItemID.Wood, 8)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
