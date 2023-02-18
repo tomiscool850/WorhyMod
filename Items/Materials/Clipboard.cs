@@ -25,7 +25,7 @@ namespace WorhyMod.Items.Materials
         }
         public override void AddRecipes()
         {
-            CreateRecipe(2)
+            CreateRecipe()
                 .AddIngredient(ItemID.Wood, 8)
                 .AddTile(TileID.WorkBenches)
                 .Register();

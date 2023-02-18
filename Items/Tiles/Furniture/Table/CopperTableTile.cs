@@ -15,7 +15,7 @@ namespace WorhyMod.Items.Tiles.Furniture.Table
 			Main.tileTable[Type] = true;
 			Main.tileSolidTop[Type] = true;
 			Main.tileNoAttach[Type] = true;
-			Main.tileLavaDeath[Type] = true;
+			Main.tileLavaDeath[Type] = false;
 			Main.tileFrameImportant[Type] = true;
 			TileID.Sets.DisableSmartCursor[Type] = true;
 			TileID.Sets.IgnoredByNpcStepUp[Type] = true;

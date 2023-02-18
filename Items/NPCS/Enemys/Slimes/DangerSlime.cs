@@ -34,7 +34,7 @@ namespace WorhyMod.Items.NPCS.Enemys.Slimes
             NPC.DeathSound = SoundID.NPCDeath2;
             NPC.value = 200f;
             NPC.knockBackResist = 0.2f;
-            NPC.aiStyle = 3;
+            NPC.aiStyle = 1;
 
             AIType = NPCID.BlueSlime;
             AnimationType = NPCID.BlueSlime;

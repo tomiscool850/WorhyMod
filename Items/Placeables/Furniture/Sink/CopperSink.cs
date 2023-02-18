@@ -11,7 +11,7 @@ namespace WorhyMod.Items.Placeables.Furniture.Sink
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Example Sink");
+            DisplayName.SetDefault("Copper Sink");
             Tooltip.SetDefault("Counts as a water, lava, and honey source\n"
                              + "'A shame there's no Fun liquids (yet)'");
 

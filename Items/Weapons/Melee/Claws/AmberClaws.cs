@@ -27,7 +27,7 @@ namespace WorhyMod.Items.Weapons.Melee.Claws
             Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
-            Item.damage = 17;
+            Item.damage = 9;
             Item.knockBack = 1f;
             Item.crit = 6;
 

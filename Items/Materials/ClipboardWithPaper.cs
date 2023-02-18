@@ -25,7 +25,7 @@ namespace WorhyMod.Items.Materials
         }
         public override void AddRecipes()
         {
-            CreateRecipe(2)
+            CreateRecipe()
                 .AddIngredient<Clipboard>()
                 .AddIngredient<Paper>()
                 .AddTile(TileID.WorkBenches)

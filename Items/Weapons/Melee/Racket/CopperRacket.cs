@@ -4,6 +4,7 @@ using Terraria.ID;
 using Terraria.GameContent.Creative;
 using Terraria.ModLoader;
 using WorhyMod;
+using WorhyMod.Items.Projectiles.RangedP.BallP;
 
 namespace WorhyMod.Items.Weapons.Melee.Racket
 {
@@ -35,7 +36,9 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
 			Item.value = Item.buyPrice(silver: 5);
 			Item.rare = ItemRarityID.Orange;
 			Item.UseSound = SoundID.Item1;
-		}
+            Item.shoot = ModContent.ProjectileType<TenisBallProjectile>();
+            Item.shootSpeed = 12;
+        }
 	    public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)
         {
             target.AddBuff(BuffID.Bleeding, 120);

@@ -47,7 +47,7 @@ namespace WorhyMod.Items.Tools.FishingRods
         }
         public override void AddRecipes()
         {
-            CreateRecipe(2)
+            CreateRecipe()
                 .AddIngredient(ItemID.Diamond, 8)
                 .AddTile(TileID.Anvils)
                 .Register();

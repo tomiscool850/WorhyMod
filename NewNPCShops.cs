@@ -68,6 +68,11 @@ namespace WorhyMod
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ItemID.Topaz);
                 nextSlot++;
+                if (type == NPCID.Steampunker)
+                {
+                    shop.item[nextSlot].SetDefaults(ModContent.ItemType<MecanicalParts>());
+                    nextSlot++;
+                }
             }
         }
     }

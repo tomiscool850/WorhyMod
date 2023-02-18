@@ -30,13 +30,15 @@ namespace WorhyMod.Items.Placeables.Blocks.Beam
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe(10)
-				.AddIngredient(ItemID.TinBar, 2)
-				.AddTile(TileID.Anvils)
+			CreateRecipe()
+				.AddIngredient(ItemID.TinOre)
+				.AddIngredient(ItemID.StoneBlock, 5)
+				.AddTile(TileID.Furnaces)
 				.Register();
 
 			CreateRecipe()
 				.AddIngredient<TinBeamWall>(4)
+				.AddTile(TileID.WorkBenches)
 				.Register();
 		}
 

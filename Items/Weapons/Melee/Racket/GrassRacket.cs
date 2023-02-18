@@ -34,8 +34,6 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
             Item.value = Item.buyPrice(gold: 2);
             Item.rare = ItemRarityID.Green;
             Item.UseSound = SoundID.Item1;
-            Item.shoot = ModContent.ProjectileType<TenisBallProjectile>();
-            Item.shootSpeed = 12;
         }
 
         public override void OnHitNPC(Player player, NPC target, int damage, float knockback, bool crit)

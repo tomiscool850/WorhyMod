@@ -47,7 +47,7 @@ namespace WorhyMod.Items.Tools.FishingRods
         }
         public override void AddRecipes()
         {
-            CreateRecipe(2)
+            CreateRecipe()
                 .AddIngredient(ItemID.Topaz, 8)
                 .AddTile(TileID.Anvils)
                 .Register();
