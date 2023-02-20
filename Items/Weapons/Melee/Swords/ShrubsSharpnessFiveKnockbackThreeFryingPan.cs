@@ -11,7 +11,7 @@ namespace WorhyMod.Items.Weapons.Melee.Swords
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Shrub's Sharpness 5 Knockback 2 Frying Pan");
+            DisplayName.SetDefault("shrub co. cast iron frying pan with knockback 3 and sharpness 3 with extra fucking cast iron frying pan");
             Tooltip.SetDefault("Shrubs Signiture frying pan.");
 
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;

@@ -39,7 +39,7 @@ namespace WorhyMod.Items.Weapons.Melee.Swords
                 PitchVariance = 0.2f,
                 MaxInstances = 3,
             };
-            Item.mana = 100;
+            Item.mana = 200;
         }
     }
 }

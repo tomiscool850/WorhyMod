@@ -1,4 +1,4 @@
 displayName = A Worthy Adventure
 author = ThomasIR
 homepage = https://docs.google.com/document/d/1OCtMuzbiH5obkA9GNkEn4NWEzRWvc1kcHqCcyzHaoTU/edit
-version = 0.0.9
+version = 0.0.9.1

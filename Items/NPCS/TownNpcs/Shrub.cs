@@ -59,7 +59,7 @@ namespace WorhyMod.Items.NPCS.TownNpcs
 
             NPC.Happiness
                 .SetBiomeAffection<ForestBiome>(AffectionLevel.Love)
-                .SetBiomeAffection<SnowBiome>(AffectionLevel.Dislike)
+                .SetBiomeAffection<SnowBiome>(AffectionLevel.Like)
                 .SetBiomeAffection<DesertBiome>(AffectionLevel.Hate)
                 .SetBiomeAffection<JungleBiome>(AffectionLevel.Like)
                 .SetNPCAffection(NPCID.Dryad, AffectionLevel.Love)
@@ -142,7 +142,12 @@ namespace WorhyMod.Items.NPCS.TownNpcs
                 "Shrub",
                 "Zycote",
                 "Bush",
-                "Lil Tree"
+                "Lil Tree",
+                "BushMen",
+                "Shrubenner",
+                "Your Stacker",
+                "Fog Warning"
+
             };
         }
 
