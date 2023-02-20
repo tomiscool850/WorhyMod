@@ -46,7 +46,7 @@ namespace WorhyMod.Items.Weapons.Melee.Racket
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.IronBar, 9)
+                .AddIngredient(ItemID.LeadBar, 9)
                 .AddTile(TileID.Anvils)
                 .Register();
         }

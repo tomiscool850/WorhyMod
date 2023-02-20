@@ -14,7 +14,7 @@ namespace WorhyMod.Items.Tiles.Furniture.Clock
 
             Main.tileFrameImportant[Type] = true;
             Main.tileNoAttach[Type] = true;
-            Main.tileLavaDeath[Type] = true;
+            Main.tileLavaDeath[Type] = false;
             TileID.Sets.Clock[Type] = true;
 
             AdjTiles = new int[] { TileID.GrandfatherClocks };

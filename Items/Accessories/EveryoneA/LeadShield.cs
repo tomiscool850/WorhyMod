@@ -30,7 +30,7 @@ namespace WorhyMod.Items.Accessories.EveryoneA
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetDamage(DamageClass.Generic) += 0.35f;
-            player.endurance = 1f - (0.1f * (1f - player.endurance));
+            player.endurance = 0.3f - (0.05f * (0.5f - player.endurance));
         }
 
         public override void AddRecipes()

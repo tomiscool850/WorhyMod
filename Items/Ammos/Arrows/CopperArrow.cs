@@ -24,7 +24,7 @@ namespace WorhyMod.Items.Ammos.Arrows
 			Item.consumable = true;
 			Item.value = 50;
 			Item.rare = ItemRarityID.Green;
-			Item.shoot = ModContent.ProjectileType<Items.Projectiles.AmmoP.ArrowP.CopperArrowProjectile>();
+			Item.shoot = ModContent.ProjectileType<CopperArrowProjectile>();
 			Item.shootSpeed = 8f; 
 			Item.ammo = AmmoID.Arrow;
 		}

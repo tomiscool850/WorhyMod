@@ -1,8 +1,11 @@
 ﻿using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using WorhyMod.Items.Food;
 using WorhyMod.Items.Materials;
+using WorhyMod.Items.OtherStuff;
 using WorhyMod.Items.Weapons.Ranged.Guns.Pistals;
+using WorhyMod.Items.Weapons.Summon.Minions;
 
 namespace WorhyMod
 {
@@ -14,7 +17,7 @@ namespace WorhyMod
             {
                 shop.item[nextSlot].SetDefaults(ModContent.ItemType<EraserPowder>());
                 nextSlot++;
-                shop.item[nextSlot].SetDefaults(ModContent.ItemType<EraserPowder>());
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<EraserDust>());
                 nextSlot++;
             }
             if (type == NPCID.Cyborg)
@@ -68,11 +71,20 @@ namespace WorhyMod
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ItemID.Topaz);
                 nextSlot++;
-                if (type == NPCID.Steampunker)
-                {
-                    shop.item[nextSlot].SetDefaults(ModContent.ItemType<MecanicalParts>());
-                    nextSlot++;
-                }
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<GoblinHeldToBat>());
+                nextSlot++;
+            }
+            if (type == NPCID.Steampunker)
+            {
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<MecanicalParts>());
+                nextSlot++;
+            }
+            if (type == NPCID.PartyGirl)
+            {
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<DotlessGolfBall>());
+                nextSlot++;
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<Casadia>());
+                nextSlot++;
             }
         }
     }

@@ -19,7 +19,7 @@ namespace WorhyMod.Items.Tiles.Furniture.Chair
 		{
 			Main.tileFrameImportant[Type] = true;
 			Main.tileNoAttach[Type] = true;
-			Main.tileLavaDeath[Type] = true;
+			Main.tileLavaDeath[Type] = false;
 			TileID.Sets.HasOutlines[Type] = true;
 			TileID.Sets.CanBeSatOnForNPCs[Type] = true;
 			TileID.Sets.CanBeSatOnForPlayers[Type] = true;

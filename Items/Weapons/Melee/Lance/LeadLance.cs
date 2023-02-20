@@ -38,7 +38,7 @@ namespace WorhyMod.Items.Weapons.Melee.Lance
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.IronBar, 18)
+                .AddIngredient(ItemID.LeadBar, 18)
                 .AddTile(TileID.Anvils)
                 .Register();
         }

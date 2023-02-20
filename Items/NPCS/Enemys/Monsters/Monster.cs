@@ -46,7 +46,7 @@ namespace WorhyMod.Items.NPCS.Enemys.Monsters
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)
         {
-            var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.BoneLee, false);
+            var zombieDropRules = Main.ItemDropsDB.GetRulesForNPCID(NPCID.Zombie, false);
             foreach (var zombieDropRule in zombieDropRules)
             {
                 npcLoot.Add(zombieDropRule);

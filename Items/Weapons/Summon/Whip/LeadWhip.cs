@@ -26,7 +26,7 @@ namespace WorhyMod.Items.Weapons.Summon.Whip
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.IronBar, 15)
+                .AddIngredient(ItemID.LeadBar, 15)
                 .AddTile(TileID.Anvils)
                 .Register();
         }
