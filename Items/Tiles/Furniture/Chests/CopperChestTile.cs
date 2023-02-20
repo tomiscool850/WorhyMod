@@ -39,7 +39,6 @@ namespace WorhyMod.Items.Tiles.Furniture.Chests
             name.SetDefault("Locked Copper Chest");
             AddMapEntry(new Color(0, 141, 63), name, MapChestName);
 
-            // Placement
             TileObjectData.newTile.CopyFrom(TileObjectData.Style2x2);
             TileObjectData.newTile.Origin = new Point16(0, 1);
             TileObjectData.newTile.CoordinateHeights = new[] { 16, 18 };

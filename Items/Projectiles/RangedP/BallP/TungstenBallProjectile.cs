@@ -7,13 +7,13 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace WorhyMod.Items.Projectiles.AmmoP.BulletP
+namespace WorhyMod.Items.Projectiles.RangedP.BallP
 {
-    public class SilverBulletProjectile : ModProjectile
+    public class TungstenBallProjectile : ModProjectile
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Silver Bullet Projectile");
+            DisplayName.SetDefault("Tungsten Ball Projectile");
             ProjectileID.Sets.TrailCacheLength[Projectile.type] = 5;
             ProjectileID.Sets.TrailingMode[Projectile.type] = 0;
         }
@@ -28,13 +28,37 @@ namespace WorhyMod.Items.Projectiles.AmmoP.BulletP
             Projectile.DamageType = DamageClass.Ranged;
             Projectile.penetrate = 5;
             Projectile.timeLeft = 600;
-            Projectile.alpha = 255;
+            Projectile.alpha = 50;
             Projectile.light = 0.1f;
             Projectile.ignoreWater = true;
             Projectile.tileCollide = true;
             Projectile.extraUpdates = 1;
 
-            AIType = ProjectileID.Bullet;
+            AIType = 1;
+        }
+
+        public override bool OnTileCollide(Vector2 oldVelocity)
+        {
+            Projectile.penetrate--;
+            if (Projectile.penetrate <= 0)
+            {
+                Projectile.Kill();
+            }
+            else
+            {
+                Collision.HitTiles(Projectile.position, Projectile.velocity, Projectile.width, Projectile.height);
+                SoundEngine.PlaySound(SoundID.Item10, Projectile.position);
+                if (Math.Abs(Projectile.velocity.X - oldVelocity.X) > float.Epsilon)
+                {
+                    Projectile.velocity.X = -oldVelocity.X;
+                }
+                if (Math.Abs(Projectile.velocity.Y - oldVelocity.Y) > float.Epsilon)
+                {
+                    Projectile.velocity.Y = -oldVelocity.Y;
+                }
+            }
+
+            return false;
         }
 
         public override bool PreDraw(ref Color lightColor)
