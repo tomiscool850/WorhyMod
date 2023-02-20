@@ -4,6 +4,7 @@ using Terraria.ModLoader;
 using WorhyMod.Items.Food;
 using WorhyMod.Items.Materials;
 using WorhyMod.Items.OtherStuff;
+using WorhyMod.Items.Weapons.Melee.Spear;
 using WorhyMod.Items.Weapons.Ranged.Guns.Pistals;
 using WorhyMod.Items.Weapons.Summon.Minions;
 
@@ -72,6 +73,8 @@ namespace WorhyMod
                 shop.item[nextSlot].SetDefaults(ItemID.Topaz);
                 nextSlot++;
                 shop.item[nextSlot].SetDefaults(ModContent.ItemType<GoblinHeldToBat>());
+                nextSlot++;
+                shop.item[nextSlot].SetDefaults(ModContent.ItemType<GoblinSpear>());
                 nextSlot++;
             }
             if (type == NPCID.Steampunker)

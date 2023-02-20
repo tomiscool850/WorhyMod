@@ -8,6 +8,8 @@ using WorhyMod.Items.Accessories.RangerA;
 using WorhyMod.Items.Materials;
 using WorhyMod.Items.Food;
 using WorhyMod.Items.Weapons.Summon.Minions;
+using WorhyMod.Items.Weapons.Melee.Racket;
+using WorhyMod.Items.Weapons.Melee.Spear;
 
 namespace ExampleMod.Common.GlobalNPCs
 {
@@ -20,6 +22,7 @@ namespace ExampleMod.Common.GlobalNPCs
             if (npc.type == NPCID.Zombie)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<KetaminePills>(), 1));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<ZombieRacket>(), 1));
             }
             if (npc.type == NPCID.TheDestroyer)
             {
@@ -82,11 +85,13 @@ namespace ExampleMod.Common.GlobalNPCs
             if (npc.type == NPCID.GoblinThief)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<GoblinHeldToBat>()));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<GoblinSpear>()));
 
             }
             if (npc.type == NPCID.GoblinWarrior)
             {
                 npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<GoblinHeldToBat>()));
+                npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<GoblinSpear>()));
             }
             if (npc.type == NPCID.BloodMummy)
             {

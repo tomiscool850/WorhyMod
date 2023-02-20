@@ -7,7 +7,7 @@ using Terraria.ObjectData;
 
 namespace WorhyMod.Items.Tiles.Bars
 {
-    public class TerraBarTile : ModTile
+    public class ZenithBarTile : ModTile
     {
         public override void SetStaticDefaults()
         {
